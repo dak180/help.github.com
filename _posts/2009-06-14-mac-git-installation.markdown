@@ -15,6 +15,32 @@ Pre-compiled Installer
 
 Download and run [git-osx-installer](http://code.google.com/p/git-osx-installer/)
 
+Fink
+--------
+
+Install [Fink](http://www.finkproject.org/download/) if you haven't already done so.
+
+Install Git 
+
+    $ fink install git
+
+*(You may want to include Subversion support if you want to import SVN repositories. Snow Leopard already contains a copy of SVN)*
+
+    $ fink install git-svn
+
+MacPorts
+--------
+
+Install [MacPorts](http://www.macports.org/install.php) if you haven't already done so.
+
+Install Git
+
+    $ sudo port install git-core
+
+*(You may want to include Subversion support if you want to import SVN repositories. Snow Leopard already contains a copy of SVN)*
+
+    $ sudo port install git-core +svn
+
 Homebrew
 --------
 
